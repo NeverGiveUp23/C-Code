@@ -3,4 +3,6 @@ project(Starting C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Starting main.c)
+add_executable(Starting main.c
+        testing/testing.c
+)
