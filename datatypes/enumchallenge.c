@@ -25,7 +25,5 @@ int main(void){
    // 8
    // 9
 
-
-
     return 0;
 }
