@@ -11,4 +11,5 @@ add_executable(Starting main.c
         datatypes/formats.c
         datatypes/cliargs.c
         operators/operators.c
+        looping/looping.c
 )
