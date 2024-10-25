@@ -50,7 +50,8 @@ boolVar = 0
 
    width = 3.4;
    height = 5.2;
-   perimeter = height + width * 2;
+
+   perimeter = ( height + width )* 2;
    area = width * height;
 
     printf(" The perimeter of the rectangle: %.2f\n", perimeter);
