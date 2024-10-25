@@ -79,6 +79,12 @@ build CMakeFiles/Starting.dir/datatypes/enumchallenge.c.o: C_COMPILER__Starting_
   OBJECT_DIR = CMakeFiles/Starting.dir
   OBJECT_FILE_DIR = CMakeFiles/Starting.dir/datatypes
 
+build CMakeFiles/Starting.dir/datatypes/formats.c.o: C_COMPILER__Starting_unscanned_Debug /Users/felix/CLionProjects/Starting/datatypes/formats.c || cmake_object_order_depends_target_Starting
+  DEP_FILE = CMakeFiles/Starting.dir/datatypes/formats.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Starting.dir
+  OBJECT_FILE_DIR = CMakeFiles/Starting.dir/datatypes
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Starting
@@ -87,7 +93,7 @@ build CMakeFiles/Starting.dir/datatypes/enumchallenge.c.o: C_COMPILER__Starting_
 #############################################
 # Link the executable Starting
 
-build Starting: C_EXECUTABLE_LINKER__Starting_Debug CMakeFiles/Starting.dir/main.c.o CMakeFiles/Starting.dir/testing/testing.c.o CMakeFiles/Starting.dir/datatypes/datatypes.c.o CMakeFiles/Starting.dir/datatypes/enum.c.o CMakeFiles/Starting.dir/datatypes/enumchallenge.c.o
+build Starting: C_EXECUTABLE_LINKER__Starting_Debug CMakeFiles/Starting.dir/main.c.o CMakeFiles/Starting.dir/testing/testing.c.o CMakeFiles/Starting.dir/datatypes/datatypes.c.o CMakeFiles/Starting.dir/datatypes/enum.c.o CMakeFiles/Starting.dir/datatypes/enumchallenge.c.o CMakeFiles/Starting.dir/datatypes/formats.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Starting.dir
   POST_BUILD = :
