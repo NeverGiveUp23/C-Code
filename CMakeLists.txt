@@ -7,4 +7,5 @@ add_executable(Starting main.c
         testing/testing.c
         datatypes/datatypes.c
         datatypes/enum.c
+        datatypes/enumchallenge.c
 )
