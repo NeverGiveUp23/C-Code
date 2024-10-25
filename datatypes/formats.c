@@ -38,5 +38,25 @@ boolVar = 0
  */
 
 
+
+/*
+ * perimeter is calculated by adding the height and width and then multiplying by 2
+ * area is calculated by multiplying the width * height
+ */
+   double width;
+   double height;
+   double perimeter;
+   double area;
+
+   width = 3.4;
+   height = 5.2;
+   perimeter = height + width * 2;
+   area = width * height;
+
+    printf(" The perimeter of the rectangle: %.2f\n", perimeter);
+    printf(" The area of the rectangle is: %.2f\n", area);
+
+
+
     return 0;
 }
