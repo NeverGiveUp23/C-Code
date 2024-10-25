@@ -10,6 +10,21 @@ int main(void) {
     // and will ask me n times to pick a number to triangulate.
     // this can help if the user has n amount of numbers to calculate and triangulate
 
+
+    /*
+     * Basically in psuedo code it is like this
+     *
+     * for 5 times {
+     *
+     * Get the number from the user
+     *
+     * Calculate the requested triangular number
+     *
+     * Display the result
+     *
+     * }
+     */
+
     printf("How many numbers do you need to Triangulate? ");
     scanf("%i", &n2);
 
