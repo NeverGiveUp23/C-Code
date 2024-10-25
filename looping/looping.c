@@ -19,9 +19,9 @@ int main(void){
     printf(" n        Sum from 1 to n\n");
     printf("---       ----------------\n");
 
-    for (n = -1; n >= -15; n--) {
+    for (n = 1; n <= 15; n++) {
         triangleNumber += n;
-        printf(" %i             %i\n", n, triangleNumber);
+        printf(" %2i             %2i\n", n, triangleNumber);
     }
 
     // output
