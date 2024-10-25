@@ -14,4 +14,5 @@ add_executable(Starting main.c
         looping/looping.c
         looping/inputloop.c
         looping/anotherloop.c
+        looping/whileloop.c
 )
