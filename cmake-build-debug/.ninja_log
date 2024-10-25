@@ -1,5 +1,11 @@
 # ninja log v6
-47	77	1729737657072566269	Starting	f5762cbdddc42017
 2	34	1728877451755319313	CMakeFiles/Starting.dir/test/test.c.o	6fc4ea10bd260234
-4	46	1729737657030528762	CMakeFiles/Starting.dir/main.c.o	ec4646fd68440c7d
-0	46	1729831238872804985	build.ninja	27663246f3e14da3
+2	66	1729834322923586612	CMakeFiles/Starting.dir/datatypes/enum.c.o	f07249a14efc9e75
+47	77	1729737657072566269	Starting	f5762cbdddc42017
+1	66	1729834322922937524	CMakeFiles/Starting.dir/main.c.o	ec4646fd68440c7d
+0	46	1729834368837435512	build.ninja	27663246f3e14da3
+2	66	1729834322924174241	CMakeFiles/Starting.dir/datatypes/cliargs.c.o	71ea3da28371045f
+2	65	1729834322923414819	CMakeFiles/Starting.dir/datatypes/datatypes.c.o	deb1f42c194ffb9e
+2	66	1729834322923975615	CMakeFiles/Starting.dir/datatypes/formats.c.o	5ddb67962a93ef53
+2	65	1729834322923762488	CMakeFiles/Starting.dir/datatypes/enumchallenge.c.o	6b9fe2773a02ec64
+1	66	1729834322923229359	CMakeFiles/Starting.dir/testing/testing.c.o	155b6cfc30c027d5

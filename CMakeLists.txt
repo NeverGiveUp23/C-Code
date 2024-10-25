@@ -9,4 +9,5 @@ add_executable(Starting main.c
         datatypes/enum.c
         datatypes/enumchallenge.c
         datatypes/formats.c
+        datatypes/cliargs.c
 )
