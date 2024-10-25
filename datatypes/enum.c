@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+enum Choice {
+    yes,
+    no
+};
+
+
 int main(void){
 
     //enum allows you to define a var and specify the valid values that could be stored in that variable.
